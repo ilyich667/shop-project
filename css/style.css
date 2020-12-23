@@ -287,8 +287,7 @@ body {
     border: 0;
 }
 
-.browse-all-product__button:hover,
-.browse-all-product__button:focus {
+.browse-all-product__button:hover {
     cursor: pointer;
 }
 
