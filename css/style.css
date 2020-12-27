@@ -17,6 +17,10 @@
     clip: rect(0 0 0 0)
 }
 
+*:focus {
+    outline-style: none;
+}
+
 body {
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 30px;
@@ -33,6 +37,8 @@ body {
 
 .header {
     background-color: var(--black-color);
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .header__container {
@@ -49,6 +55,7 @@ body {
 .header__button {
     background-color: transparent;
     border: none;
+    margin-top: 6px;
 }
 
 .header__button:hover,
@@ -72,6 +79,8 @@ body {
 
 .name {
     display: flex;
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .name__header-span {
@@ -132,6 +141,15 @@ body {
     text-transform: uppercase;
 }
 
+.stock__item--first:hover {
+    outline: 2px solid rgb(241, 146, 162);
+    cursor: pointer;
+}
+
+.stock__item--first:active {
+    outline: 2px solid black;
+}
+
 .stock__item--second {
     display: flex;
     justify-content: center;
@@ -144,6 +162,15 @@ body {
     text-transform: uppercase;
 }
 
+.stock__item--second:hover {
+    outline: 2px solid rgb(241, 146, 162);
+    cursor: pointer;
+}
+
+.stock__item--second:active {
+    outline: 2px solid black;
+}
+
 .stock__item--third {
     display: flex;
     justify-content: center;
@@ -154,6 +181,15 @@ body {
     text-align: center;
     color: var(--white-color);
     text-transform: uppercase;
+}
+
+.stock__item--third:hover {
+    outline: 2px solid rgb(241, 146, 162);
+    cursor: pointer;
+}
+
+.stock__item--third:active {
+    outline: 2px solid black;
 }
 
 .stock__item:not(.stock__item--last) {
@@ -171,6 +207,15 @@ body {
     color: var(--white-color);
     text-transform: uppercase;
     margin-top: 30px;
+}
+
+.stock__item--last:hover {
+    outline: 2px solid rgb(241, 146, 162);
+    cursor: pointer;
+}
+
+.stock__item--last:active {
+    outline: 2px solid black;
 }
 
 .stock__item-name {
@@ -248,6 +293,11 @@ body {
     border: 1px solid var(--white-color);
 }
 
+.fetured__item-button:active {
+    outline: 2px solid palevioletred;
+    opacity: 0.8;
+}
+
 .fetured__item-header {
     margin: 0 0 12px;
     font-size: 13px;
@@ -285,14 +335,213 @@ body {
     background: transparent;
     margin-top: 49px;
     border: 0;
+    margin-bottom: 95px;
 }
 
 .browse-all-product__button:hover {
     cursor: pointer;
+    background: #F16D7F;
+    color: #FFF;
 }
 
 .browse-all-product__button:active {
-    background-color: #F16D7F;
+    opacity: 0.8;
     color: #FFF;
+}
+
+.advantages__block {
+    background: #222224;
+    height: 341px;
+    margin-top: 95px;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.advantages__items {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 103px;
+    padding-left: 42px;
+}
+
+.advantages__items-item {
+    width: 360px;
+    height: 134px;
+    text-align: center;
+}
+
+.advantages__items-header {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    padding-top: 28px;
+}
+
+.advantages__items-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13.972px;
+    line-height: 17px;
+    color: #FBFBFB;
+    padding-top: 15px;
+}
+
+.footer__block {
+    background-image: url(../img/footer-background.png);
+    height: 448px;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.footer__block-info {
+    width: 360px;
+    height: 225px;
+    margin-left: 230px;
+    padding-top: 87px;
+    text-align: center;
+    float: left;
+}
+
+.footer__block-info-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+    margin-top: 30px;
+}
+
+.footer__block-subscribe {
+    width: 557px;
+    height: 142px;
+    margin-left: 813px;
+    padding-top: 150px;
+    position: relative;
+}
+
+.footer__block-subscribe-header {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+    text-transform: uppercase;
+}
+
+.footer__block-subscribe-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #222224;
+    margin-top: 10px;
+}
+
+.footer__block-subscribe-input {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #222224;
+    opacity: 0.67;
+    background-color: #E1E1E1;
+    width: 323px;
+    height: 49px;
+    border: 0;
+    border-radius: 30px;
+    padding-left: 22px;
+    margin-top: 32px;
+    margin-left: 105px;
+}
+
+.footer__block-subscribe-button {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #F16D7F;
+    width: 100px;
+    height: 49px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 0;
+    position: absolute;
+    bottom: -3px;
+    right: 95px;
+}
+
+.footer__block-subscribe-input:active {
+    outline-style: none;
+}
+
+.footer__block-subscribe-button:active {
+    outline-style: none;
+    border: 2px solid plum;
+}
+
+.footer__block-subscribe-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.footer__social--block {
+    background-color: var(--black-color);
+    height: 79px;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.footer__social--block-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+    padding-top: 30px;
+    padding-left: 235px;
+    float: left;
+}
+
+.footer__social--block-icons {
+    display: flex;
+    text-align: right;
+    width: 142px;
+    height: 32px;
+    float: right;
+    margin-right: 230px;
+    margin-top: 24px;
+}
+
+.footer__social-icon {
+    padding-right: 5px;
+    padding-bottom: 24px;
+}
+
+.footet__social-icons {
+    height: 32px;
+    width: 32px;
+}
+
+.footet__social-icons:hover {
+    opacity: 0.8;
 }
 
