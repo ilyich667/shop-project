@@ -9,6 +9,45 @@
     --black: #222224;
 }
 
+@font-face {
+    font-family:'o';
+    src: url('o Light.eot');
+	src: url('o Light.eot?#iefix') format('embedded-opentype'),
+		url('o Light.woff2') format('woff2'),
+		url('o Light.woff') format('woff'),
+		url('o Light.svg#o Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family:'Lato';
+    src: url('Lato Regular.eot');
+	src: url('Lato Regular.eot?#iefix') format('embedded-opentype'),
+		url('Lato Regular.woff2') format('woff2'),
+		url('Lato Regular.woff') format('woff'),
+		url('Lato Regular.svg#Lato Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family:'Lato';
+    src: url('Lato Bold.eot');
+	src: url('Lato Bold.eot?#iefix') format('embedded-opentype'),
+		url('Lato Bold.woff2') format('woff2'),
+		url('Lato Bold.woff') format('woff'),
+		url('Lato Bold.svg#Lato Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
