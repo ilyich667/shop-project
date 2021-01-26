@@ -1293,6 +1293,7 @@ body {
     .catalog-fetured__block {
         margin-top: 24px;
         margin-bottom: 40px;
+        align-items: flex-end;
     }
 }
 
@@ -1312,6 +1313,19 @@ body {
 @media (min-width: 0px) and (max-width: 768px) {
     .catalog-fetured__block--head {
         margin-left: 0px;
+        display: none;
+    }
+}
+
+.catalog-fetured__block--head-burger {
+    display: none;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .catalog-fetured__block--head-burger {
+        width: 37px;
+        height: 25px;
+        display: flex;
     }
 }
 
