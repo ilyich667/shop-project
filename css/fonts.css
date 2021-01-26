@@ -1,5 +1,5 @@
 @font-face {
-    font-family:'o';
+    font-family:'Lato';
     src: url('../Fonts/Italic/Light.eot');
 	src: url('../Fonts/Italic/Light.eot?#iefix') format('embedded-opentype'),
 		url('../Fonts/Italic/Light.woff2') format('woff2'),
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-family:'Lato Regular';
+    font-family:'Lato';
     src: url('../Fonts/Regular/Lato-Regular.eot');
 	src: url('../Fonts/Regular/Lato-Regular.eot?#iefix') format('embedded-opentype'),
 		url('../Fonts/Regular/Lato-Regular.woff2') format('woff2'),
@@ -25,7 +25,7 @@
 }
 
 @font-face {
-    font-family:'Lato Bold';
+    font-family:'Lato';
     src: url('../Fonts/Bold/Lato-Bold.eot');
 	src: url('../Fonts/Bold/Lato-Bold.eot?#iefix') format('embedded-opentype'),
 		url('../Fonts/Bold/Lato-Bold.woff2') format('woff2'),
